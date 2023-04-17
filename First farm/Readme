@@ -1,0 +1,35 @@
+Nodejs
+
+nodejs - is a javaScript runtime built on google's  
+ open-source V8 javascript engine.
+
+       - node.js wrapes V8 engine. V8 engine is used by
+
+       chrome to complie javaScript into machine code
+
+       - is written in c++
+
+       - reads and write files on a computer
+
+       - can connect to database
+
+       - allows us to share code between front and back end
+
+       - node.js wrapes V8 engine. V8 engine is used by
+
+       chrome to complie javaScript into machine code
+
+       - NPM library
+
+- NPM - node package manager - a software that is used to manage the third party open source packges that we include in our project.
+  \*npm init - creates a packge.json file that is a configuration file of the project
+
+      dependencies:
+      - slugify - build base of our application
+                - a function that is used to create a slug
+                Slug - is the last part of the url that contains a unique string that identifies the resource that the website is displaying
+      developer dependencies:
+      - nodemon - helps us develop node.js application by automatically restarting the node application when we make some changes.
+
+      * "~" - we use this sign before the version to specify that we only accept patches. secure
+      * "^" - we use this sign before the version to specify that we accept both patches and minor versions.
